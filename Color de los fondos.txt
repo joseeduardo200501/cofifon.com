@@ -1,0 +1,6 @@
+#Pagina inicio:
+-fondo crema
+#Pagina Productos:
+-fondo marron
+#Pagina SobreNosotros:
+-fondo marron

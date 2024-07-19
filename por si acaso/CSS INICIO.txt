@@ -1,0 +1,121 @@
+ul{
+    list-style-type: none;         /* lista de las opciones (Nav)*/
+
+}
+
+nav li a {                                             /*Detalles del nav*/
+    text-decoration: none;
+    background-color:rgb(190, 83, 83);
+    color: aliceblue;
+    padding: 20px;
+    display: block;
+    width: 95px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+nav{                                                        /*medida del nav*/
+    width: 500px;
+    margin: auto;
+}
+
+nav ul li{                                        /* lista de la lista del nav*/
+float :left ;
+}
+
+nav li a:hover{                                         /* Cambio de color al momento de pasar el puntero en nav*/
+    background-color: rgb(167, 162, 156);
+
+}
+
+.table{                                                            
+    background-color: rgb(236, 240, 239);
+    width: 600px;
+    height: 45px;
+    display: table;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.row{
+    display: table-row;
+}
+
+.cell{
+    border: 5px solid #000000;
+    display: table-cell;
+    width: 100px;
+    padding: 10px;
+}
+.cafecito{
+    margin-left: 0;
+    width: 350px;
+   
+}
+
+.textomedio{
+    /* margin-left:15px; */
+    font-size: 24px;
+    display: inline-block;
+    padding: 25px;
+    padding-bottom: 14px ;
+    
+}
+
+.cafecito2{
+   
+    margin-right: 25px;
+  
+}
+
+.contenedor {
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.table2{
+    background-color: rgb(236, 240, 239);
+    width: 1200px;
+    /* height: ;    */
+    display: table;
+    border-collapse: collapse;
+    margin:auto;
+  
+    
+}
+
+
+
+.row2{
+    display: table-row;
+    height: 100px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.cell2{
+    border: 10px solid  rgb(236, 240, 239);
+    display: table-cell;
+    width: 250px;
+    height: 100px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+
+}
+
+.destacado{
+    text-align: center;
+}
+
+.fraseinicio1{
+
+text-align: center;
+}
+
+
+
+body{
+    background-color:  rgb(236, 240, 239);
+}

@@ -1,0 +1,64 @@
+body{
+    background-color: #574320      /*color de la pagina*/
+}
+ul{
+    list-style-type: none;             /*-------lista-------*/
+
+}
+/*°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°APLICACION DEL NAV°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°*/
+
+nav li a {
+    text-decoration: none;                         /*--------mini lista--------*/
+    background-color:rgb(190, 83, 83);
+    color: aliceblue;
+    padding: 20px;
+    display: block;
+    width: 95px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+nav{                                        
+    width: 500px;               /*---tamaño y margen del nav-----*/
+    margin: auto;
+}
+
+nav ul li{
+float :left ;                /*----acomodamiento del nav----*/
+}
+
+nav li a:hover{
+    background-color: rgb(167, 162, 156);       /* Color al momento de tocar con el puntero*/
+}
+
+
+/*°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°APLICACION DEL MAIN°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°*/
+
+main{
+    border-color: solid black;
+    width: 1300px;
+    height: 1650px;
+    background-color: rgb(236, 240, 239); 
+}
+     /*-----acomodamiento de las recetas-------*/
+.receta1{
+    width: 900px;
+    height: 90px;
+    display: flex;
+    margin-right: auto;
+}
+.receta2{
+    display: flex;
+}
+.receta3{
+    display: flex;
+}
+.receta4{
+    display: flex;
+}
+.receta5{
+    display: flex;
+}
+.receta6{
+    display: flex;
+}

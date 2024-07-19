@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENÚ</title>
+    <link rel="stylesheet" href="css/menu.css">
+</head>
+<body>
+    <header>
+        <form action="/busqueda" method="get">
+            <label for="busqueda">Buscar:</label>
+            <input type="search" id="busqueda" name="q" placeholder="Buscar término...">
+            <button type="submit">Buscar</button>
+          </form>          <!--Fin de a barra de busqueda-->
+    </header>
+
+
+    <img src="img/BannerMenu.png" alt="BannerMenu" width="100%">     <!--Banner principal----------->
+    <br>
+
+    <!------NAVEGACION----------------------------------------------------------------------------------------------->
+    <nav>
+    <ul>
+   <li>
+    <a href="http://127.0.0.1:5500/PaginaInicio.html">Inicio</a>
+   </li>   
+    
+
+    <li><a href="http://127.0.0.1:5500/PaginaMenu.html">Menú</a>
+    </li>
+    
+    <li>
+        <a href="http://127.0.0.1:5500/PaginaSobreNosotros.html">Sobre Nosotros</a>
+    </li>
+    </nav>     
+    </ul>    <!-----------------FIN DE LA BARRA DE NAVEGACION-------------------------------------------------------->
+    <br><br>
+    <br><br>
+
+    <!-------INICIO DEL MENU---------------------------------------------------------------->
+    <main>
+        <div class="receta1">      <!--NUMERO 1-->
+            <div>
+                <h3 id="precio1">PRECIO: S/. 8,49</h3>
+            </div>
+            <div id="cafeimagen1">
+                <img  src="img/producto1.jpg" alt="café amaericano">
+            </div>
+            <div id="textomenu1">
+                <p>Despierta tus sentidos con nuestro café americano! Una taza de inspiración diaria. Aroma intenso, sabor inigualable.</p>
+            </div>
+        </div>
+    
+    
+        <div class="receta2">                     <!--NUMERO 2-->
+            <div>
+                <h3 id="precio2">PRECIO: S/. 3,99</h3>
+            </div>
+    
+            <div id="cafeimagen2">
+                <img src="img/Producto2.jpg" alt="b">
+            </div>
+    
+            <div id="textomenu2">
+                <p>Eleva tu día con nuestro café espresso, intenso, audaz y lleno de sabor.</p>
+            </div>
+        </div>
+        <br>
+        <div class="receta3">                     <!--NUMERO 3-->
+            <div id="precio3">
+                <h3>PRECIO: S/. 3,50</h3>
+            </div>
+            <div id="cafeimagen3">
+                <img class="cafe3" src="img/Producto3.jpg" alt="c">      
+            </div>
+            <div id="textomenu3">
+                <P> Sabor clásico, confort en cada sorbo. Descubre nuestro café con leche: la combinación perfecta de espresso robusto y leche cremosa.</P>
+            </div>
+        </div>
+        <br>
+        <div class="receta4">                    <!--NUMERO 4-->
+            <div id="precio4">
+                <h3>PRECIO: S/. 13.99</h3>
+            </div>
+            <div id="cafeimagen4">
+                <img class="cafe4" src="img/producto4.jpg" alt="d">   
+            </div>
+            <div id="textomenu4">
+                <p>Café latte: la armonía perfecta entre espresso y leche. Disfruta de su suavidad y equilibrio en cada sorbo.
+                    Prueba una de vainilla</p>
+            </div>
+        </div>
+        
+    
+        <div class="receta5">                    <!--NUMERO 5-->
+            <div id="precio5">
+                <h3>PRECIO: S/. 16,50</h3>
+            </div>
+            <div id="cafeimagen5">
+                <img class="cafe5" src="img/producto5.jpg" alt="e">
+            </div>
+            <div id="textomenu5">
+                <p>Sabor que Encanta, Calidad que Conquista! Prueba nuestro cappuccino: la combinación perfecta de espresso robusto y espuma cremosa.</p>
+            </div>
+        </div>
+    
+        <div class="receta6">                    <!--NUMERO 6-->
+            <div id="precio6">
+                <img src="img/rico.jpg" alt="f" width="10%">
+            </div>
+            <div id="cafeimagen6">
+                <p>¡Descubre la deliciosa revolución!
+            </div>
+            <div id="textomenu6">
+                <p>Nuestro Samsung de waffle con jarabe de arce no solo te conecta con el mundo, sino que también satisface tu paladar. ¡No esperes más para probar el primer celular que puedes comer!</p>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+    <br>
+    <br>
+
+
+
+    <h2>NOVEDADES</h2>
+    <h3>NUEVOS PRODCUTOS:</h3>
+    <P>En nuestros establecimientos, implementamos una nueva bebida para todos los consumidores </P>
+    <img src="img/menuMOCCA.jpg" alt="mocca" width="20%">
+    <br>
+    <p>Una merienda de café inspirado en un xiaomi comestible podría ser una interpretación creativa de un postre clásico con un toque divertido y delicioso.</p>
+    <img src="img/menuXIAOMI.jpg" alt="xiomi" width="20%">
+    <br>
+    <h3>BENEFICIOS:</h3>
+    <p>-POR TU CUMPLEAÑOS TE REGALAMOS UN MENU COMPLETO DE TU PREFERENCIA
+        -20% DE DESCUENTO EN DIAS FESTIVOS(SOLO APLICA EN MONTOS MAYORES A 50 SOLES)</p>
+        <img src="img/Screenshot_10.png" alt="niño feliz" width="20%">
+
+        <h4>ACTUALIZACION DE LA PAGINA</h4>
+            <p>-La pagina aun no a recibido actualizaciones</p>
+            <img src="img/LibroDeReclamaciones.jpg" alt="librito" width="10%">
+    <br>
+    <a href="https://www.google.com">politicas y privacidad</a>         <a href="https://www.google.com">contactenos</a>  <a href="https://x.com/X">X</a>    <a href="https://www.instagram.com/">Instagram</a>     <a href="https://www.youtube.com/">YouTube</a>     <a href="https://es-la.facebook.com/">Facebook</a>    <a href="https://www.tiktok.com/es">TikTok</a>                        <h6>©2024 COFIFON todos los derechos reservados</h6>
+
+</body>
+</html>

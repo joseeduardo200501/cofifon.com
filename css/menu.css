@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap');
+
+
+body{
+    background-color: #574320      /*color de la pagina*/
+}
+ul{
+    list-style-type: none;             /*-------lista-------*/
+
+}
+/*°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°APLICACION DEL NAV°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°*/
+
+nav li a {
+    text-decoration: none;                         /*--------mini lista--------*/
+    background-color:rgb(190, 83, 83);
+    color: aliceblue;
+    padding: 20px;
+    display: block;
+    width: 100px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+nav{                                        
+    width: 500px;               /*---tamaño y margen del nav-----*/
+    margin: auto;
+}
+
+nav ul li{
+float :left ;                /*----acomodamiento del nav----*/
+}
+
+nav li a:hover{
+    background-color: rgb(167, 162, 156);       /* Color al momento de tocar con el puntero*/
+}
+
+
+/*°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°APLICACION DEL MAIN°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°*/
+
+main{
+    border-color: solid black;
+    width: 1300px;
+    height: 2700px;
+    background-color: rgb(236, 240, 239); 
+}
+     /*-----acomodamiento de las recetas-------*/
+.receta1{
+    display: flex;
+    width: 900px;
+    height: 190px;
+    margin-right: auto;
+    padding: 10px;
+    margin: 5px;
+    gap: 30px;
+}
+
+.receta2{
+    display: flex;
+    width: 900px;
+    height: 190px;
+    margin-right: auto;
+    padding: 10px;
+    margin: 5px;
+    gap: 30px;
+}
+.receta3{
+    display: flex;
+    width: 900px;
+    height: 190px;
+    margin-right: auto;
+    padding: 10px;
+    margin: 5px;
+    gap: 30px;
+}
+.receta4{
+    display: flex;
+    width: 900px;
+    height: 190px;
+    margin-right: auto;
+    padding: 10px;
+    margin: 5px;
+    gap: 30px;
+}
+.receta5{
+    display: flex;
+    width: 900px;
+    height: 190px;
+    margin-right: auto;
+    padding: 10px;
+    margin: 5px;
+    gap: 30px;
+}
+.receta6{
+    display: flex;
+    width: 900px;
+    height: 190px;
+    margin-right: auto;
+    padding: 10px;
+    margin: 5px;
+    gap: 40px;
+}
+
+.receta1 :hover{
+    color: blue;
+}
+.receta2 :hover{
+    color: blue;
+}
+.receta3 :hover{
+    color: blue;
+}
+.receta4 :hover{
+    color: blue;
+}
+.receta5 :hover{
+    color: blue;
+}
+.receta1 :hover{
+    color: blue;
+}
+
+
+
+/* Detalles de cada precio de la receta*/
+
+#precio1{                    /*receta 1*/
+     font-size: 21px;
+}
+                            
+#precio2{                    /*receta 2*/
+    width: 160px;
+    font-size: 21px;
+}                    
+#precio3{                /*receta 3*/
+    font-size: 21px;
+}                  
+#precio4{
+    font-size: 21px;
+}
+#precio5{
+    font-size: 21px;
+}
+#precio6{
+    font-size: 21px;
+}
+/*carrito de compras*/
+.carro{
+    text-align: center;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+    font-size: 11px;
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/*---------------FIIN DE LAS RECETAS--------------------------*/
+
+
+
+
+/*--------INICIO DE NOVEDADES-----------------------*/
+
+#NOVEDADES{
+    text-align: center;
+    font-size: 35px;
+    color: #574320;
+}
+
+
+
+
